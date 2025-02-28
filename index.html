@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>advanced2-bootstrap-version</title>
+    <link rel="icon" href="fabicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header class="sticky-top bg-body">
+      <div class="container px-0">
+        <nav class="navbar navbar-expand-lg py-0">
+          <a class="navbar-brand p-0" href="#" title="logo">
+            <img
+              class="nav-img"
+              src="ex-1/images/head_logo.jpg"
+              alt="Corey"
+              width="150px"
+              height="60px"
+            />
+          </a>
+          <button
+            class="navbar-toggler mx-2 mx-md-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto py-0">
+              <li class="nav-item active">
+                <a class="nav-link" title="home" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" title="through about section" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  title="through service section"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  title="through portfolio section"
+                  href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  title="through pricing section"
+                  href="#pricing"
+                  >Price</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blogs" title="through blog section"
+                  >Blog
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="mailto:priyansu.bhattacharya@innoraft.com"
+                  class="nav-link img-link py-0"
+                  title="mail us"
+                >
+                  <img
+                    src="ex-1/images/mail.jpg"
+                    alt="mail"
+                    height="60"
+                    width="60"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- banner section start -->
+      <section
+        class="overlay-section overlay-section-1 position-relative text-center container-fluid px-0"
+      >
+        <div class="section-overlay position-absolute left-0 top-0">
+          <div
+            class="header-content position-absolute top-50 start-50 translate-middle"
+          >
+            <h1 class="section-title">
+              We Will <span>Make</span> Your <span>Business</span> great Again
+            </h1>
+            <p class="desc mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+              eos? Lorem ipsum dolor sit.
+            </p>
+            <div class="buttons mt-5">
+              <a
+                href="#"
+                class="button px-5 py-3 mx-2 bg-transparent text-decoration-none text-uppercase"
+                title="button"
+                >Contact Us</a
+              >
+              <a
+                href="#"
+                class="button px-5 py-3 mx-2 bg-transparent text-decoration-none text-uppercase"
+                title="button"
+                >Discover Now</a
+              >
+            </div>
+          </div>
+          <a href="#about" title="through about section"
+            ><img
+              class="down-arrow position-absolute object-fit-contain"
+              src="ex-1/images/icons/darrow.png"
+              alt="down-arrow"
+              height="15px"
+              width="20px"
+          /></a>
+        </div>
+      </section>
+      <!-- banner end -->
+
+      <!-- about section start -->
+      <section id="about" class="about container mt-5">
+        <div class="inner-wrapper row py-4 d-flex justify-content-between">
+          <div class="about-content col-md-5">
+            <div class="about-top-content">
+              <h2 class="content-heading">Hello <span>World</span></h2>
+              <p class="desc about-desc mt-5">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+                nihil accusantium itaque obcaecati porro possimus magni saepe
+                dolorum, quis accusamus, eos rerum atque voluptatibus corrupti
+                omnis unde consectetur consequuntur sed velit. Repudiandae
+                itaque tenetur suscipit.
+              </p>
+            </div>
+            <ul class="about-sec-selectors list-unstyled mt-5">
+              <li class="about-sec-selector d-flex mt-3">
+                <img
+                  claass="icon"
+                  src="ex-1/images/icons/i-diamond_b.svg"
+                  alt=""
+                  height="40px"
+                  width="50px"
+                />
+                <p class="icon-desc p-2">Exploring your area of activity</p>
+              </li>
+              <li class="about-sec-selector d-flex mt-3">
+                <img
+                  claass="icon"
+                  src="ex-1/images/icons/i-wallet_b.svg"
+                  alt=""
+                  height="40px"
+                  width="50px"
+                />
+                <p class="icon-desc p-2">Competetive analysis</p>
+              </li>
+              <li class="about-sec-selector d-flex mt-3">
+                <img
+                  claass="icon"
+                  src="ex-1/images/icons/i-trophy_b.svg"
+                  alt=""
+                  height="40px"
+                  width="50px"
+                />
+                <p class="icon-desc p-2">Do the work in time</p>
+              </li>
+            </ul>
+          </div>
+
+          <img
+            class="about-img object-fit-cover img-fluid col-md-7"
+            src="ex-1/images/img-3.jpg"
+            alt="image"
+            width="700"
+            height="450"
+          />
+        </div>
+      </section>
+      <!-- about end -->
+
+      <!-- services start -->
+      <section id="services" class="services overlay-section mt-5">
+        <div class="section-overlay">
+          <div class="inner-wrapper py-5 text-center container">
+            <h2 class="section-title">
+              Some of our <span>best services</span>
+              to solve your problems
+            </h2>
+
+            <div class="services-items row mt-5">
+              <div class="services-item pt-5 col-12 col-sm-6 col-md-4">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-message_w.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+
+                <h5 class="services-item-heading mt-5">Digital marketing</h5>
+                <p class="desc mt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorem, quaerat?
+                </p>
+              </div>
+              <div class="services-item pt-5 col-12 col-sm-6 col-md-4">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-feature_w.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+                <h5 class="services-item-heading mt-5">Web development</h5>
+                <p class="desc mt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorem, quaerat?
+                </p>
+              </div>
+              <div class="services-item pt-5 col-12 col-sm-12 col-md-4">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-sketch_w.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+
+                <h5 class="services-item-heading mt-5">UI/UX design</h5>
+                <p class="desc mt-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolorem, quaerat?
+                </p>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="button px-5 py-3 bg-transparent text-decoration-none services-btn"
+              title="order"
+              >order a service</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- sevice end -->
+
+      <!-- portfolio strat -->
+      <section id="portfolio" class="portfolio mt-5">
+        <div class="inner-wrapper container py-5">
+          <h2 class="content-heading">
+            <span>Good design</span> is obvious Great design is transparent
+          </h2>
+          <p class="desc about-desc mt-4">
+            <span class="fw-bold">About Joe &copy</span> graphic
+            designer,litrecy teacher
+          </p>
+          <div class="selectors mt-5">
+            <a
+              href="#"
+              class="selector text-decoration-none py-4 px-2 px-sm-3 px-md-5 fw-bold text-uppercase active"
+              title="portfolio items"
+              >Show all</a
+            >
+            <a
+              href="#"
+              class="selector text-decoration-none py-4 px-2 px-sm-3 px-md-5 fw-bold text-uppercase"
+              title="portfolio items"
+              >design</a
+            >
+            <a
+              href="#"
+              class="selector text-decoration-none py-4 px-2 px-sm-3 px-md-5 fw-bold text-uppercase"
+              title="portfolio items"
+              >code</a
+            >
+            <a
+              href="#"
+              class="selector text-decoration-none py-4 px-2 px-sm-3 px-md-5 fw-bold text-uppercase"
+              title="portfolio items"
+              >art</a
+            >
+          </div>
+
+          <div
+            class="portfolio-contents mt-5 row d-flex justify-content-between gy-4 gy-xl-0"
+          >
+            <div class="portfolio-content col-12 col-md-6 col-xl-4">
+              <div class="portfolio-overlay-content scate position-relative">
+                <img
+                  src="ex-1/images/12-min.jpg"
+                  alt="scate-image"
+                  width="100%"
+                  height="532"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+              <div class="portfolio-overlay-content card-img position-relative">
+                <img
+                  src="ex-1/images/2-min.jpg"
+                  alt=""
+                  width="100%"
+                  height="250"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-content col-12 col-md-6 order-sm-3 col-xl-4 d-md-flex justify-content-between d-xl-block">
+              <div
+                class="portfolio-overlay-content active card-img position-relative"
+              >
+                <img
+                  src="ex-1/images/2-min.jpg"
+                  alt="card image"
+                  width="100%"
+                  height="250"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+              <div class="portfolio-overlay-content card-img position-relative">
+                <img
+                  src="ex-1/images/2-min.jpg"
+                  alt=""
+                  width="100%"
+                  height="250"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+              <div class="portfolio-overlay-content card-img position-relative">
+                <img
+                  src="ex-1/images/2-min.jpg"
+                  alt=""
+                  width="100%"
+                  height="250"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-content col-12 col-md-6 col-xl-4 order-xl-last">
+              <div class="portfolio-overlay-content card-img position-relative">
+                <img
+                  src="ex-1/images/2-min.jpg"
+                  alt="card image"
+                  width="100%"
+                  height="250"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+              <div class="portfolio-overlay-content scate position-relative">
+                <img
+                  src="ex-1/images/12-min.jpg"
+                  alt="scate image"
+                  width="100%"
+                  height="532"
+                  
+                  
+                />
+                <div
+                  class="card-overlay opacity-0 position-absolute text-center"
+                >
+                  <a
+                    href="#"
+                    class="icon position-relative fs-1"
+                    title="see porject"
+                    >+</a
+                  >
+                  <h5 class="overlay-heading mt-4">Project title</h5>
+                  <p class="overlay-desc mt-3">Code</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio end -->
+
+      <!-- stats strt -->
+      <section class="stats mt-5">
+        <div class="section-overlay">
+          <div class="inner-wrapper container py-5">
+            <div class="stats-items row">
+              <div class="stats-item text-center mt-5 col-sm-6 col-md-3 col-6">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-team.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+                <p class="mt-5 mb-0 fs-6 text-white">Unique customers:</p>
+                <h2 class="mt-1 fw-bold text-white">3519+</h2>
+              </div>
+
+              <div class="stats-item text-center mt-5 col-sm-6 col-md-3 col-6">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-shield.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+                <p class="mt-5 mb-0 fs-6 text-white">Completed projects:</p>
+                <h2 class="mt-1 fw-bold text-white">3519+</h2>
+              </div>
+
+              <div class="stats-item text-center mt-5 col-sm-6 col-md-3 col-6">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-diamond.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+                <p class="mt-5 mb-0 fs-6 text-white">Happy users:</p>
+                <h2 class="mt-1 fw-bold text-white">3519+</h2>
+              </div>
+
+              <div class="stats-item text-center mt-5 col-sm-6 col-md-3 col-6">
+                <span class="position-relative">
+                  <img
+                    src="ex-1/images/icons/i-trophy.svg"
+                    alt="image"
+                    height="50"
+                    width="50"
+                  />
+                </span>
+                <p class="mt-5 mb-0 fs-6 text-white">Honors and awards:</p>
+                <h2 class="mt-1 fw-bold text-white">3519+</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- stats end -->
+
+      <!-- pricing start -->
+      <section id="pricing" class="pricing mt-5">
+        <div class="inner-wrapper container py-5">
+          <h2 class="section-title text-center">
+            Flexible <span>Pricing</span> Plans
+          </h2>
+
+          <p class="desc text-center mt-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
+            hic!
+          </p>
+
+          <div class="pricing-items mt-5 row text-center">
+            <div class="pricing-item col-12 col-sm-6 col-lg-4 mb-3 mx-auto">
+              <div class="pricing-item-content">
+                <h3 class="fw-bold">Trial version</h3>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, illo!
+                </p>
+                <ul class="list-unstyled mt-5">
+                  <li class="mt-2">
+                    <h5><span>Free</span></h5>
+                  </li>
+                  <li class="mt-2">500gb drive storage</li>
+                  <li class="mt-2 muted-list">Unlimited messages</li>
+                  <li class="mt-2 muted-list">Free Email address</li>
+                  <li class="mt-2 muted-list">Friendly support</li>
+                </ul>
+                <a
+                  href="#"
+                  class="button mt-4 text-decoration-none px-5 py-3 bg-transparent"
+                  title="pricing"
+                  >download</a
+                >
+              </div>
+            </div>
+
+            <div class="pricing-item col-12 col-sm-6 col-lg-4 mb-4 mx-auto">
+              <div class="pricing-item-content">
+                <h3 class="fw-bold">Regular</h3>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, illo!
+                </p>
+
+                <ul class="list-unstyled mt-5">
+                  <li class="mt-2">
+                    <h5>&dollar; <span>19</span>/Month</h5>
+                  </li>
+                  <li class="mt-2">500gb drive storage</li>
+                  <li class="mt-2">Unlimited messages</li>
+                  <li class="mt-2 muted-list">Free Email address</li>
+                  <li class="mt-2 muted-list">Friendly support</li>
+                </ul>
+                <a
+                  title="pricing"
+                  href="#"
+                  class="button mt-4 text-decoration-none px-5 py-3 bg-transparent"
+                  >purchase</a
+                >
+              </div>
+            </div>
+
+            <div class="pricing-item col-12 col-sm-6 col-lg-4 mb-4 mx-auto">
+              <div class="pricing-item-content">
+                <h3 class="fw-bold">Extended</h3>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum, illo!
+                </p>
+                <ul class="list-unstyled mt-5">
+                  <li class="mt-2">
+                    <h5>&dollar; <span>29</span>/Month</h5>
+                  </li>
+                  <li class="mt-2">500gb drive storage</li>
+                  <li class="mt-2">Unlimited messages</li>
+                  <li class="mt-2">Free Email address</li>
+                  <li class="mt-2">Friendly support</li>
+                </ul>
+                <a
+                  href="#"
+                  class="button mt-4 text-decoration-none px-5 py-3 bg-transparent"
+                  title="pricing"
+                  >purchase</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- pricing end -->
+
+      <!-- testimonial start -->
+      <section id="test" class="testimonials mt-5">
+        <div class="section-overlay">
+          <div class="inner-wrapper container py-5">
+            <div
+              class="testimonials-header d-flex justify-content-between flex-column flex-md-row"
+            >
+              <div class="testimonial-header-wrapper">
+                <h4 class="content-heading text-white">
+                  <span>Testimonials</span> About us
+                </h4>
+                <p class="desc text-white">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+
+              <div class="testimonials-head-icons d-flex">
+                <a
+                  href="#"
+                  class="testimonials-head-icon"
+                  title="change testimonials"
+                >
+                  <img
+                    src="ex-1/images/icons/larrow.png"
+                    alt="arrow"
+                    height="20px"
+                    width="20px"
+                  />
+                </a>
+                <a
+                  href="#"
+                  class="testimonials-head-icon"
+                  title="change testimonials"
+                >
+                  <img
+                    src="ex-1/images/icons/rarrow.png"
+                    alt="arrow"
+                    height="20px"
+                    width="20px"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="testimonials-items row text-center mt-5">
+              <div class="testimonials-item col-md-6 col-12">
+                <img
+                  src="ex-1/images/t-1.jpeg"
+                  alt="Testimonial"
+                  width="100px"
+                  height="100px"
+                  class="rounded-circle"
+                />
+                <h5 class="mt-4 text-white fw-bold">Rober Newmen</h5>
+                <p class="text-secondary">Microsoft corporation</p>
+                <p class="desc mt-3 text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam voluptatibus ipsum id soluta totam? Quibusdam,
+                  consectetur! Porro est magnam minima esse quibusdam adipisci
+                  odit soluta quaerat earum eaque sed consequatur numquam quo,
+                  modi, voluptatum in.
+                </p>
+              </div>
+              <div class="testimonials-item col-md-6 col-12">
+                <img
+                  src="ex-1/images/t-2.jpeg"
+                  alt="Testimonial"
+                  width="100px"
+                  height="100px"
+                  class="rounded-circle"
+                />
+
+                <h5 class="mt-4 text-white fw-bold">Rober Newmen</h5>
+                <p class="text-secondary">Space X</p>
+                <p class="desc mt-3 text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam voluptatibus ipsum id soluta totam? Quibusdam,
+                  consectetur! Porro est magnam minima esse quibusdam adipisci
+                  odit soluta quaerat earum eaque sed consequatur numquam quo,
+                  modi, voluptatum in.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial end -->
+
+      <!-- blog start -->
+      <section id="blogs" class="blogs mt-5">
+        <div class="inner-wrapper container py-5">
+          <h4 class="content-heading">Latest<span> Blog</span> posts</h4>
+          <p class="desc mt-4">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+          <div class="row blog-items mt-5">
+            <div class="col12 col-md-6 col-xl-4 mb-4 blog-item mx-auto">
+              <div class="blog-item-content">
+                <img
+                  src="ex-1/images/img-2.jpg"
+                  alt="blog-image"
+                  width="100%"
+                  height="230px"
+                />
+                <div class="p-4">
+                  <h5 class="fw-bold">Lorem ipsum dolor sit amet.</h5>
+                  <p class="mt-4 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Reprehenderit aut harum ea, autem aliquam beatae soluta esse
+                    facere? Eius, eos.
+                  </p>
+
+                  <a
+                    href="#"
+                    class="button mt-4 text-decoration-none px-5 py-3"
+                    title="blog-button"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col12 col-md-6 col-xl-4 mb-4 blog-item mx-auto">
+              <div class="blog-item-content">
+                <img
+                  src="ex-1/images/img-2.jpg"
+                  alt="blog-image"
+                  width="100%"
+                  height="230px"
+                />
+                <div class="p-4">
+                  <h5 class="fw-bold">Lorem ipsum dolor sit amet.</h5>
+                  <p class="mt-4 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Reprehenderit aut harum ea, autem aliquam beatae soluta esse
+                    facere? Eius, eos.
+                  </p>
+
+                  <a
+                    href="#"
+                    class="button mt-4 text-decoration-none px-5 py-3"
+                    title="blog-button"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col12 col-md-6 col-xl-4 blog-item mx-auto">
+              <div class="blog-item-content">
+                <img
+                  src="ex-1/images/img-2.jpg"
+                  alt="blog-image"
+                  width="100%"
+                  height="230px"
+                />
+                <div class="p-4">
+                  <h5 class="fw-bold">Lorem ipsum dolor sit amet.</h5>
+                  <p class="mt-4 text-secondary">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Reprehenderit aut harum ea, autem aliquam beatae soluta esse
+                    facere? Eius, eos.
+                  </p>
+
+                  <a
+                    href="#"
+                    class="button mt-4 text-decoration-none px-5 py-3"
+                    title="blog-button"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- blog end -->
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer mt-5">
+      <div class="footer-wrapper container">
+        <a href="#footer" title="brand"
+          ><img
+            class="footer-icon"
+            src="ex-1/images/logo-footer.jpg"
+            alt="logo"
+            height="70px"
+            width="170px"
+        /></a>
+        <div class="footer-contents row d-flex justify-content-around">
+          <ul class="list-unstyled col-6 col-sm-6 col-xl-3 mt-5">
+            <li><h5 class="fw-bold text-white">Company</h5></li>
+            <li><a href="#" title="about">About</a></li>
+            <li><a href="#" title="support">Support</a></li>
+            <li><a href="#" title="press">Press</a></li>
+            <li><a href="#" title="legal & privacy">Legal & Privacy</a></li>
+          </ul>
+
+          <ul class="list-unstyled col-6 col-sm-6 col-xl-3 mt-5">
+            <li><h5 class="fw-bold text-white">Quick Links</h5></li>
+            <li><a href="#" title="news">news</a></li>
+            <li><a href="#" title="contact-us">contact us</a></li>
+            <li><a href="#" title="faq">faq</a></li>
+          </ul>
+
+          <ul class="list-unstyled col-6 col-sm-6 col-xl-3 mt-5">
+            <li><h5 class="fw-bold text-white">Social</h5></li>
+            <li><a href="#" title="visit facebook">facebook</a></li>
+            <li><a href="#" title="visit Google page">Google +</a></li>
+            <li><a href="#" title="visit twitter">twitter</a></li>
+            <li><a href="#" title="visit instagram">instagram</a></li>
+          </ul>
+
+          <div class="footer-content col-12 col-sm-6 col-xl-3 mt-5">
+            <h5 class="text-white fw-bold">subscribe newsletter</h5>
+            <div class="footer-input d-flex">
+              <input type="email" placeholder="email" />
+              <a href="mailto:priyansu.bhattacharya@innoraft.com" title="mail"
+                ><img
+                  src="ex-1/images/icons/i-message_w.svg"
+                  alt="send"
+                  height="30px"
+                  width="30px"
+                  class="send-icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <p class="m-0 mt-3 py-3 text-center text-secondary text-uppercase copy">
+          copyright &copy all rights reserved 2024 | design and development by
+          <span>priyansu</span>
+        </p>
+      </div>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
